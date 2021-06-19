@@ -1,0 +1,109 @@
+@font-face{
+    font-family:'Roboto', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+}
+body {
+    font-family: "roboto-black";
+
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    max-width: auto;
+    font-size:1vw;
+    padding: 0 5vw ;
+    justify-content: center;
+    align-items: center;
+}
+
+.griot-main{
+    display:inline-block;
+    padding: 1vh 1vw 1vh 1vw;
+    color:white;
+    font-size: 30px;
+}
+
+.nav-header{
+    display:flex;
+    align-self:flex-end;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-left: 10vw;
+}
+
+.nav-header li{
+    display:inline-block;
+    padding: 1vh 3vw 1vh 3vw;
+    color:white;
+    font-size: 20px;
+}
+
+.container-stage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.stage-img{
+    position: relative;
+    width: 100%;
+}
+
+.stage-title{
+    color: white;
+    position: absolute;
+    font-size: 100px;
+}
+
+.container-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: solid rgb(177, 177, 177);
+}
+
+.date{ 
+    display: flex;
+    border: 2px solid rgb(177, 177, 177);
+    background-color: rgb(212, 212, 212);
+    margin: 5vw 0vw;
+    padding: 0 50vw 0 5vw;
+}
+
+.read-more{
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    width: auto;
+}
+
+.container-show{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2vw 2vw;
+    width: 60vw;
+    padding-bottom: 15px;
+    border-bottom: 2px solid grey;
+}
+
+.show-img{ /* Cannot figure out how to resize image */
+    max-width:70%;
+    height:auto;
+}
+
+.container-show-text{
+    display: flex;
+    align-content: space-around;
+    max-height: 400vh;
+}
+
+
